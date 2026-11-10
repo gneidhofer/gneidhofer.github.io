@@ -34,3 +34,12 @@ for (const button of document.querySelectorAll('.copy-citation')) {
     }
   });
 }
+
+// Keep section links clear of the sticky navigation at every screen width.
+const siteHeader = document.querySelector("body > header");
+if (siteHeader) {
+  const updateHeaderHeight = () => document.documentElement.style.setProperty("--header-height", `${Math.ceil(siteHeader.getBoundingClientRect().height)}px`);
+  updateHeaderHeight();
+  if ("ResizeObserver" in window) new ResizeObserver(updateHeaderHeight).observe(siteHeader);
+  else window.addEventListener("resize", updateHeaderHeight);
+}
