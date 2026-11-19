@@ -10,3 +10,8 @@
 .theme-grid .theme-illustration{display:block;width:100%;max-width:300px;height:auto;aspect-ratio:3/2;object-fit:contain;margin:0 0 18px;border-radius:4px}@media(max-width:640px){.theme-grid .theme-illustration{max-width:270px}}@media print{.theme-grid .theme-illustration{display:none}}
 
 @media(max-width:640px){.header-inner{padding-top:12px;padding-bottom:12px;gap:10px}}@media print{header{position:static}}
+
+/* Clear section headings across the website */
+main h2{color:#125744;background:#e8f0ea;border-left:4px solid #166957;border-radius:0 4px 4px 0;padding:14px 20px;margin-bottom:28px;line-height:1.35}
+@media(max-width:640px){main h2{padding:12px 15px;margin-bottom:24px}}
+@media print{main h2{background:transparent;border-left:2px solid currentColor;color:inherit}}
