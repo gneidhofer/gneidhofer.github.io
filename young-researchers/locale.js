@@ -25,7 +25,7 @@ const englishPageCopy = {
   programIntro: "The program is primarily for economics students. Students in related fields may also be a good fit, especially if they are interested in quantitative research.",
   mentoringDetails: "Talk with experienced researchers about your interests and possible next steps, such as a quantitative master’s degree, a PhD, or a research-oriented career.",
   methodsHeading: "Quantitative methods",
-  methodsDetails: "Practise framing a question you can investigate with data. For example, how is regional unemployment related to the number of new businesses?",
+  methodsDetails: "Practise framing a question you can investigate with data.",
   projectHeading: "Group research project",
   projectDetails: "Develop a research question with other students for your first research project together.",
   fitHeading: "Is the program right for me?",
