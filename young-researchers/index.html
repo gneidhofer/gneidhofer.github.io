@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#f2f7f5">
+  <meta name="description" data-copy="description" data-attribute="content" content="Mentoring und ein erstes Forschungsprojekt für Studierende der Volkswirtschaftslehre und verwandter Fächer.">
+  <title>TGU Economics - Young Researchers Program</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="locale.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main" data-copy="skip">Zum Inhalt</a>
+  <header class="site-header" id="start">
+    <div class="wrap header-inner">
+      <a class="brand" href="#start" aria-label="TGU Economics - Young Researchers Program, Seitenanfang" data-copy="brandLabel" data-attribute="aria-label">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="brand-wordmark"><span>TGU Economics</span><b>Young Researchers Program</b></span>
+      </a>
+      <nav aria-label="Hauptnavigation" data-copy="navigation" data-attribute="aria-label">
+        <a href="#programm" data-copy="navProgram">Programm</a>
+        <a href="#check" data-copy="fitLabel">Eignungscheck</a>
+        <a class="nav-cta" href="#interesse"><span class="wide-label">Expression of Interest</span><span class="short-label" data-copy="navInterest">Interesse</span></a>
+      </nav>
+      <div class="language-switch" id="language-switch" role="group" aria-label="Sprache" data-copy="language" data-attribute="aria-label" hidden>
+        <button type="button" data-language="de" lang="de" aria-label="Deutsch" aria-pressed="true">DE</button>
+        <button type="button" data-language="en" lang="en" aria-label="English" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow" data-copy="studentMentoring">Mentoring für Studierende</p>
+          <h1>Young Researchers <span>Program</span></h1>
+          <p class="hero-intro" data-copy="heroIntro">Entwickle deine erste Forschungsfrage und arbeite mit anderen Studierenden an einem gemeinsamen Projekt. Erfahrene Forschende begleiten dich dabei.</p>
+          <div class="actions">
+            <a class="button primary" href="#check" data-copy="heroCheck">Eignung prüfen</a>
+            <a class="button secondary" href="#programm" data-copy="heroProgram">Programm kennenlernen</a>
+          </div>
+        </div>
+        <figure class="campus">
+          <img src="assets/tgu-campus.webp" data-copy="campusAlt" data-attribute="alt" alt="Universitätsgebäude und Innenhof der Türkisch-Deutschen Universität in Beykoz" width="1440" height="1084" fetchpriority="high">
+          <figcaption><span data-copy="campusCaption">Campus Beykoz</span><span>İstanbul, Türkiye</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <div class="fields">
+      <div class="wrap fields-inner">
+        <span class="field-heading" data-copy="fieldHeading">Studienfächer im Fokus</span>
+        <p>Economics <span data-copy="business">Betriebswirtschaftslehre</span> <span data-copy="politics">Politikwissenschaft</span> <span data-copy="sociology">Soziologie</span></p>
+      </div>
+    </div>
+
+    <section id="programm" class="section overview">
+      <div class="wrap overview-grid">
+        <div>
+          <p class="eyebrow" data-copy="sectionProgram">Das Programm</p>
+          <h2 data-copy="programHeading">Forschung im Team ausprobieren</h2>
+          <p class="intro" data-copy="programIntro">Das Programm richtet sich in erster Linie an Economics-Studierende. Auch verwandte Fächer kommen infrage, besonders bei Interesse an quantitativer Forschung.</p>
+        </div>
+        <div class="program-list">
+          <article>
+            <h3>Mentoring</h3>
+            <p data-copy="mentoringDetails">Sprich mit erfahrenen Forschenden über deine Interessen und mögliche nächste Schritte, etwa einen quantitativen Master, eine Promotion oder eine forschungsorientierte Tätigkeit.</p>
+          </article>
+          <article>
+            <h3 data-copy="methodsHeading">Quantitative Methoden</h3>
+            <p data-copy="methodsDetails">Übe, eine Frage so zu formulieren, dass du sie mit Daten untersuchen kannst. Ein Beispiel wäre der Zusammenhang zwischen regionaler Arbeitslosigkeit und Unternehmensgründungen.</p>
+          </article>
+          <article>
+            <h3 data-copy="projectHeading">Gemeinsames Forschungsprojekt</h3>
+            <p data-copy="projectDetails">Entwickle mit anderen Studierenden eine Forschungsfrage für euer erstes gemeinsames wissenschaftliches Projekt.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="check" class="section fit">
+      <div class="wrap fit-grid">
+        <div class="fit-copy">
+          <p class="eyebrow" data-copy="fitLabel">Eignungscheck</p>
+          <h2 data-copy="fitHeading">Passt das Programm zu mir?</h2>
+          <p class="intro" data-copy="fitIntro">Vier kurze Fragen zu deinem Studium und dazu, was du ausprobieren möchtest.</p>
+          <p class="fit-note" data-copy="fitNote">Die Rückmeldung dient der persönlichen Orientierung. Über eine Aufnahme entscheidet das Programmteam.</p>
+        </div>
+        <div class="quiz-card" id="quiz-card">
+          <noscript><p>Für den Eignungscheck muss JavaScript aktiviert sein.</p></noscript>
+          <form id="quiz" hidden>
+            <div class="quiz-meta"><p id="quiz-progress"></p><div class="steps" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div>
+            <fieldset>
+              <legend id="quiz-question" tabindex="-1"></legend>
+              <div id="quiz-options" class="quiz-options"></div>
+            </fieldset>
+            <p class="validation" id="quiz-validation" role="alert" hidden data-copy="quizValidation">Wähle eine Antwort, um fortzufahren.</p>
+            <div class="quiz-controls">
+              <button type="button" class="button secondary" id="quiz-back" hidden data-copy="quizBack">Zurück</button>
+              <button type="submit" class="button primary" id="quiz-next">Weiter</button>
+            </div>
+          </form>
+          <div id="quiz-result" hidden>
+            <p class="eyebrow" data-copy="resultLabel">Deine Orientierung</p>
+            <h3 id="result-title" tabindex="-1"></h3>
+            <p id="result-summary"></p>
+            <p class="result-note" id="result-note" hidden></p>
+            <div class="actions">
+              <a class="button primary" href="#interesse" data-copy="resultDraft">Entwurf vorbereiten</a>
+              <button class="button secondary" type="button" id="quiz-restart" data-copy="quizRestart">Neu starten</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="interesse" class="section interest">
+      <div class="wrap">
+        <p class="eyebrow">Expression of Interest</p>
+        <h2 data-copy="interestHeading">Deine Interessenbekundung</h2>
+        <p class="intro" data-copy="interestIntro">Erstelle einen kurzen E-Mail-Entwurf auf Deutsch oder Englisch. Du kannst ihn direkt bearbeiten, kopieren oder als Textdatei herunterladen.</p>
+        <p class="interest-note" data-copy="interestNote">Deine Angaben bleiben in dieser Seitenansicht. Die Website verschickt keine E-Mail.</p>
+
+        <div class="interest-grid">
+          <form id="draft-form" class="draft-form" novalidate hidden>
+            <div class="form-grid">
+              <label><span data-copy="draftName">Vor- und Nachname</span> <input id="draft-name" data-copy="draftNamePlaceholder" data-attribute="placeholder" type="text" maxlength="120" autocomplete="name" required placeholder="Dein Name"></label>
+              <label><span data-copy="draftStudy">Studiengang und Studienjahr</span> <span class="optional">optional</span><input id="draft-studies" type="text" maxlength="180" placeholder="z. B. Economics, third year"></label>
+            </div>
+            <label class="draft-language">
+              <span data-copy="draftLanguage">Sprache des Entwurfs</span>
+              <select id="draft-language">
+                <option value="en" lang="en">English</option>
+                <option value="de" lang="de">Deutsch</option>
+              </select>
+            </label>
+            <label><span data-copy="draftMotivation">Warum möchtest du teilnehmen?</span>
+              <span class="form-hint" id="motivation-hint" data-copy="motivationHint">Schreib in der gewählten Sprache, was dich interessiert oder was du lernen möchtest.</span>
+              <textarea id="draft-motivation" rows="4" maxlength="1500" required aria-describedby="motivation-hint" placeholder="I would like to learn how to work with survey data …"></textarea>
+            </label>
+            <label><span data-copy="draftTopic">Welche Forschungsfrage interessiert dich?</span> <span class="optional">optional</span>
+              <textarea id="draft-topic" rows="2" maxlength="800" placeholder="How does parental education relate to university enrolment?"></textarea>
+            </label>
+            <button class="button primary" type="submit" data-copy="draftSubmit">Entwurf erstellen</button>
+          </form>
+
+          <div class="draft-panel">
+            <div class="draft-heading"><label for="draft-preview" data-copy="draftPreview">Dein E-Mail-Entwurf</label></div>
+            <textarea id="draft-preview" spellcheck="true" lang="en" rows="13" aria-describedby="preview-hint" data-copy="previewPlaceholder" data-attribute="placeholder" placeholder="Der Entwurf erscheint hier."></textarea>
+            <p id="preview-hint" class="form-hint" data-copy="previewHint">Du kannst den Text hier direkt bearbeiten.</p>
+            <div class="actions draft-actions">
+              <button class="button primary" type="button" id="draft-copy" disabled data-copy="draftCopy">Kopieren</button>
+              <button class="button secondary" type="button" id="draft-download" disabled data-copy="draftDownload">Als .txt herunterladen</button>
+            </div>
+            <p class="feedback" id="draft-feedback" role="status" aria-live="polite"></p>
+            <noscript><p>Für den Entwurfsgenerator muss JavaScript aktiviert sein. Das Textfeld kannst du direkt verwenden.</p></noscript>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="organisation" class="section logistics">
+      <div class="wrap overview-grid">
+        <div>
+          <p class="eyebrow" data-copy="organizationLabel">Organisation</p>
+          <h2 data-copy="organizationHeading">Termine und Teilnahme</h2>
+        </div>
+        <div class="details-list">
+          <details open>
+            <summary data-copy="meetingQuestion">Wann ist das erste Treffen?</summary>
+            <p data-copy="meetingInfo">Vorgesehen ist Mittwoch, der 2. Dezember 2026, im Besprechungsraum des Economics Department. Die genaue Uhrzeit ist hier noch offen.</p>
+          </details>
+          <details>
+            <summary data-copy="sendQuestion">Wohin schicke ich meine Expression of Interest?</summary>
+            <p data-copy="sendInfo">Dein Ansprechpartner ist Guido Neidhöfer. Ob Interessenbekundungen noch angenommen werden und welche Frist gilt, ist hier offen.</p>
+            <p><a href="mailto:guido.neidhofer@tau.edu.tr">guido.neidhofer@tau.edu.tr</a></p>
+          </details>
+          <details>
+            <summary data-copy="requirementsQuestion">Welche formalen Voraussetzungen gelten?</summary>
+            <p data-copy="requirementsInfo">Formale Auswahlkriterien, Teilnahme von Studierenden anderer Hochschulen, Laufzeit und Zeitaufwand sind hier noch offen.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><b>TGU Economics</b><p><span lang="tr">Türk-Alman Üniversitesi</span> · <span data-copy="university">Türkisch-Deutsche Universität</span></p></div>
+      <p class="credits"><span data-copy="photoCredit">Campusfoto</span> <a href="https://commons.wikimedia.org/wiki/File:The_Campus_of_Turkish_German_University_(TDU).jpg">BWV784</a> · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <span data-copy="photoEdits">Ausschnitt und Farbanpassung</span></p>
+    </div>
+  </footer>
+</body>
+</html>
